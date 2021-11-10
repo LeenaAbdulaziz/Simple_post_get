@@ -17,6 +17,7 @@ class newuser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_newuser)
+
         val name = findViewById<View>(R.id.editTextTextPersonName) as EditText
         val savebtn = findViewById<View>(R.id.button) as Button
 

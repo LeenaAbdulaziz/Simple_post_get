@@ -8,7 +8,7 @@ interface APIinterface {
         @GET("/custom-people/")
         fun getname(): Call<ArrayList<People>>
 
-    @POST("//custom-people//")
+    @POST("/custom-people/")
     fun addUser(@Body userData: People): Call<People>
 
 
